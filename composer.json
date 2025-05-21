@@ -1,0 +1,7 @@
+{
+    "name": "screechycatmedia/ksj-stripeconnect-integration",
+    "description": "Stripe Connect donation forms plugin",
+    "require": {
+        "stripe/stripe-php": "^17.2"
+    }
+}
