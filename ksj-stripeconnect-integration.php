@@ -1,11 +1,15 @@
 <?php
+// Placeholder for Stripe secret key
+if (!defined('SCM_STRIPE_SECRET_KEY')) {
+    define('SCM_STRIPE_SECRET_KEY', 'sk_test_YOUR_SECRET_KEY');
+}
+
 /**
  * Plugin Name: SCM StripeConnect Engine
  * Description: Stripe Connect onboarding + donation forms for nonprofits (custom plugin by Screechy Cat Media).
  * Version: 0.4.0
  * Author: Screechy Cat Media
  * Text Domain: ksj-sci
- */
  * GitHub Plugin URI: 3JsandaK/scm-stripeconnect-engine
  * GitHub Branch: main
  */
